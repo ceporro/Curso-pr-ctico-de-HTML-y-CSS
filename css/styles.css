@@ -124,11 +124,11 @@ main{
     color: #5F6368;
     background-color: #F2F2F2 ;
     font-size: 14px;
+    cursor: pointer;
 }
 .main_buttons button:hover{
     border: 1px solid #C6C6C6;
 }
-
 
 
 footer{
@@ -138,12 +138,20 @@ footer{
     background-color: #F2F2F2;
     height: 50px;
     border-top: 1px solid #E4E4E4;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
-footer a{
-    margin: auto 10px;
+footer ul{
+    padding-left: 0;
+}
+
+.footer_left li, .footer_right li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer ul li a{
+    margin: auto 5px;
     text-decoration: none;
     color: gray;
 }
