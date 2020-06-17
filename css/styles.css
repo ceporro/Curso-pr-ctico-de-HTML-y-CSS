@@ -38,64 +38,96 @@ header nav{
 }
 
 
-
-.main_section{
-    display: flex;
-    height: calc(100vh - 102px);
+main{
+    display: flex; 
+    height: calc(100vh - 112px);
     justify-content: center;
     text-align: center;
 }
 
 .container{
     align-self: center;
-    zoom: 1.1;
 }
+
+ .logo_container{
+    width: 530px;
+    margin: 0 auto;
+}
+ .logo_container img{
+    width: 300px;
+}
+
 
 .searcher{
-    width: 550px;
+    width: 530px;
     position: relative;
     height: 50px;
-    margin:  20px auto;
+    margin: 35px auto;
 }
 
-.searcher input{
-    width: 100%;
+.searcher_container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #DFE1E5;
     height: 100%;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.searcher_container input{
+    width: 420px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.searcher_container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #DFE1E500;
+}
+
 
 .icon-search, .icon-keyboard_voice{
     position: absolute;
     font-size: 28px;
-    top: 10px;
+    top: 12px;
 }
 
 .icon-search{
-    left: 12px;
+    left: 15px;
     justify-self: center;
     color: #9AA0A6;
     
 }
 .icon-keyboard_voice{
-    right: 12px;
+    right: 15px;
     color: blue;
+    cursor: pointer;
 }
 
-.buttons{
-    height: 30px;
+.main_buttons{
+    width: 530px;
+    margin: 0 auto;
 }
 
-.buttons input{
-    padding: 10px 15px;
+.main_buttons div{
+    display: inline-block;
+    margin: auto 5px;
+}
+
+.main_buttons button{
+    height: 36px;
+    padding: 0 15px;
     border: none;
     border-radius: 5px;
-    color: gray;
+    color: #5F6368;
     background-color: #F2F2F2 ;
+    font-size: 14px;
 }
-
-
+.main_buttons button:hover{
+    border: 1px solid #C6C6C6;
+}
 
 
 
