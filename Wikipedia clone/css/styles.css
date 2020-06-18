@@ -258,6 +258,14 @@ header h3{
     background-position: 55px calc(100% - 10px), 175px calc(100% - 10px);
 }
 
+@media (max-width: 1050px){
+    .item2{
+    background-position: 55px calc(100% - 50px), 55px calc(100% - 10px);
+    border-bottom: 50px solid white;
+
+    }
+}
+
 .item2 a{
     font-weight: bold;
     color: #36c;
